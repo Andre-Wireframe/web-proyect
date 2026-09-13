@@ -7,6 +7,9 @@
     <title>{% block title %} {% endblock %}</title>
 </head>
 <body>
+
+    {% block contenido %}
+    {% endblock %}
     
     <script src="{{ url_for('static', filename='main.js') }}"></script>
 </body>
